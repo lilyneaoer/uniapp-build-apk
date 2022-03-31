@@ -8,20 +8,20 @@ uniapp本地打包
 
 ## 文件
 1. Androidmanifest.xml (/simpleDemo/src/main/AndroidManifest.xml)
-名称|值|类型
----|:--:|---:
-android:value|appKey|字符串
+| 名称 | 值 | 类型 |
+| --- | --- | ---|
+| android:value | appKey |字符串 |
 ```
 <meta-data
             android:name="dcloud_appkey"
             android:value="你的appKey" />
 ```
 2. build.gradle (/simpleDemo/build.gradle)
-名称|值|类型
----|:--:|---:
-applicationId|包名|字符串
-versionCode|主版本|整数
-versionName|版本号|字符串
+| 名称 | 值 | 类型 |
+| --- | --- | ---|
+| applicationId | 包名 | 字符串 |
+| versionCode   | 主版本 | 整数 |
+| versionName   | 版本号 | 字符串 |
 ```
 defaultConfig {
         applicationId "com.bzkj.mobile.portal"
