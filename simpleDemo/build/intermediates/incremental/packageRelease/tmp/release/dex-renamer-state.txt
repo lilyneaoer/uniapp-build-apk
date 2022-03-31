@@ -1,0 +1,4 @@
+#Thu Mar 31 16:11:15 CST 2022
+base.0=/Users/snow/work/HBuilder-Integrate-AS/simpleDemo/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

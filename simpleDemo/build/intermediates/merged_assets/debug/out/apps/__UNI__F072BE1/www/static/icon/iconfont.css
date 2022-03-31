@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3033441 */
+  src: url('iconfont.woff2?t=1644569993975') format('woff2'),
+       url('iconfont.woff?t=1644569993975') format('woff'),
+       url('iconfont.ttf?t=1644569993975') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wode-off:before {
+  content: "\e768";
+}
+
+.icon-wode-on:before {
+  content: "\e769";
+}
+
+.icon-xiaoxi-on:before {
+  content: "\e766";
+}
+
+.icon-xiaoxi-off:before {
+  content: "\e767";
+}
+
+.icon-yingyong-on:before {
+  content: "\e764";
+}
+
+.icon-yingyong-off:before {
+  content: "\e765";
+}
+
+.icon-Home-on:before {
+  content: "\e762";
+}
+
+.icon-Home-off:before {
+  content: "\e763";
+}
+
+.icon-shangchuantouxiang:before {
+  content: "\e761";
+}
+
+.icon-gengduofuwu1:before {
+  content: "\e760";
+}
+
+.icon-buketianjia-wugaise:before {
+  content: "\e75c";
+}
+
+.icon-tianjia-wugaise:before {
+  content: "\e75d";
+}
+
+.icon-yichu-wugaise:before {
+  content: "\e75e";
+}
+
+.icon-bukeyichu-wugaise:before {
+  content: "\e75f";
+}
+
+.icon-gengduofuwu:before {
+  content: "\e75b";
+}
+
+.icon-w-xinjian:before {
+  content: "\e75a";
+}
+
+.icon-w-xitongguanli:before {
+  content: "\e758";
+}
+
+.icon-w-android:before {
+  content: "\e759";
+}
+
+.icon-w-shangchuan:before {
+  content: "\e752";
+}
+
+.icon-w-gonggaoguanli:before {
+  content: "\e753";
+}
+
+.icon-w-h5:before {
+  content: "\e754";
+}
+
+.icon-w-shenheyingyong:before {
+  content: "\e755";
+}
+
+.icon-w-yingyongguanli:before {
+  content: "\e756";
+}
+
+.icon-w-anzhuangbao:before {
+  content: "\e757";
+}
+
+.icon-shuaxin:before {
+  content: "\e750";
+}
+
+.icon-guanbiyingyong:before {
+  content: "\e751";
+}
+
+.icon-disanfangliulanqi:before {
+  content: "\e74f";
+}
+
+.icon-guanbi:before {
+  content: "\e74c";
+}
+
+.icon-zuixiaohua:before {
+  content: "\e74d";
+}
+
+.icon-fanhui:before {
+  content: "\e74e";
+}
+
+.icon-mima-cuowu:before {
+  content: "\e74a";
+}
+
+.icon-mima-zhengque:before {
+  content: "\e74b";
+}
+
+.icon-mingwen:before {
+  content: "\e748";
+}
+
+.icon-miwen:before {
+  content: "\e749";
+}
+
+.icon-gengxin:before {
+  content: "\e747";
+}
+
+.icon-mima:before {
+  content: "\e743";
+}
+
+.icon-shouji:before {
+  content: "\e744";
+}
+
+.icon-shezhi:before {
+  content: "\e745";
+}
+
+.icon-qingchu:before {
+  content: "\e746";
+}
+

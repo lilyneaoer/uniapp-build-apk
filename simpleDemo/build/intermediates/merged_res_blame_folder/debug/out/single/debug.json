@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/snow/work/HBuilder-Integrate-AS/simpleDemo/build/intermediates/res/merged/debug/drawable_icon.png.flat",
+        "source": "/Users/snow/work/HBuilder-Integrate-AS/simpleDemo/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/snow/work/HBuilder-Integrate-AS/simpleDemo/build/intermediates/res/merged/debug/drawable_push.png.flat",
+        "source": "/Users/snow/work/HBuilder-Integrate-AS/simpleDemo/src/main/res/drawable/push.png"
+    }
+]
