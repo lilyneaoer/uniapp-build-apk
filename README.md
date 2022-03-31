@@ -26,7 +26,7 @@ uniapp本地打包
 
 ### 2. build.gradle (/simpleDemo/build.gradle)
 
-   1. 包名及版本
+   2.1 包名及版本
    **applicationId** 包名 字符串
 
    **versionCode** 主版本 字符串
@@ -50,7 +50,7 @@ uniapp本地打包
         }
     ```
 
-   2. 证书 SHA1须与dCloud开发者中心一致
+   2.2 证书 SHA1须与dCloud开发者中心一致
 
    **keyAlias** 别名 字符串
 
@@ -83,14 +83,16 @@ uniapp本地打包
 
 ### 4. 图标 (/simpleDemo/src/main/res/drawable)
 **icon.png** 图标
+
 **push.png** 推送图标
+
 **splash.png(splash.9.png)** 启动图片
 
 ### 5. 资源文件
 
-   4.1  HBuilderX生的本地打包资源文件 (/simpleDemo/src/main/assets/apps/app应用标识)
+   5.1  HBuilderX生的本地打包资源文件 (/simpleDemo/src/main/assets/apps/app应用标识)
 
-   4.2 dcloud_control.xml (/simpleDemo/src/main/assets/data/dcloud_control.xml)
+   5.2 dcloud_control.xml (/simpleDemo/src/main/assets/data/dcloud_control.xml)
 
    ```
    <hbuilder>
