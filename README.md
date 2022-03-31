@@ -7,10 +7,10 @@ uniapp本地打包
 2. 软件: Android Studio, HBuilderX
 
 
-## 打包
-**Build** -> **Generate Signed Bundle/AP...**
+## 打包 (uni-app SDK与HBuilderX版本必须保持一致)
+**Build** -> **Generate Signed Bundle/APK...**
 
-**uni-app SDK与HBuilderX版本必须保持一致**
+****
 
 ## 文件配置
 1. Androidmanifest.xml (/simpleDemo/src/main/AndroidManifest.xml)
@@ -22,17 +22,17 @@ uniapp本地打包
             android:name="dcloud_appkey"
             android:value="你的appKey" />
 ```
+
 2. build.gradle (/simpleDemo/build.gradle)
 
    2.1 包名及版本
+   **applicationId** 包名 字符串
 
-    **applicationId** 包名 字符串
+   **versionCode** 主版本 字符串
 
-    **versionCode**   主版本 整数
+   **versionName** 版本号 字符串
 
-    **versionName**   版本号 字符串
-
-    *以上3个字段要与HBuildX一致*
+   *以上3个字段要与HBuildX一致*
 
     ```
     defaultConfig {
@@ -52,8 +52,11 @@ uniapp本地打包
    2.2 证书 SHA1须与dCloud开发者中心一致
 
    **keyAlias** 别名 字符串
+
    **keyPassword** 密码 字符串
+
    **storePassword** 同上 字符串
+
    **storeFile** 证书路径 字符串
 
    ```
@@ -96,6 +99,8 @@ uniapp本地打包
    </hbuilder>
 
    ```
+
+   [参考文档](https://nativesupport.dcloud.net.cn/AppDocs/usesdk/android)
 
 
 
