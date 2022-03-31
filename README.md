@@ -8,14 +8,15 @@ uniapp本地打包
 
 
 ## 打包 (uni-app SDK与HBuilderX版本必须保持一致)
-**Build** -> **Generate Signed Bundle/APK...**
+**Android Studio** Build -> Generate Signed Bundle/APK...
 
 ****
 
 ## 文件配置
-1. Androidmanifest.xml (/simpleDemo/src/main/AndroidManifest.xml)
 
-**android:value** appKey字符串
+### 1. Androidmanifest.xml (/simpleDemo/src/main/AndroidManifest.xml)
+
+**android:value** appKey 字符串
 
 ```
 <meta-data
@@ -23,9 +24,9 @@ uniapp本地打包
             android:value="你的appKey" />
 ```
 
-2. build.gradle (/simpleDemo/build.gradle)
+### 2. build.gradle (/simpleDemo/build.gradle)
 
-   2.1 包名及版本
+   1. 包名及版本
    **applicationId** 包名 字符串
 
    **versionCode** 主版本 字符串
@@ -49,7 +50,7 @@ uniapp本地打包
         }
     ```
 
-   2.2 证书 SHA1须与dCloud开发者中心一致
+   2. 证书 SHA1须与dCloud开发者中心一致
 
    **keyAlias** 别名 字符串
 
@@ -72,7 +73,7 @@ uniapp本地打包
        }
    ```
 
-3. 应用名称 strings.xml (/simpleDemo/src/main/res/values/strings.xml)
+### 3. 应用名称 strings.xml (/simpleDemo/src/main/res/values/strings.xml)
 
 ```
 <resources>
@@ -80,12 +81,12 @@ uniapp本地打包
 </resources>
 ```
 
-4. 图标 (/simpleDemo/src/main/res/drawable)
+### 4. 图标 (/simpleDemo/src/main/res/drawable)
 **icon.png** 图标
 **push.png** 推送图标
 **splash.png(splash.9.png)** 启动图片
 
-5. 资源文件
+### 5. 资源文件
 
    4.1  HBuilderX生的本地打包资源文件 (/simpleDemo/src/main/assets/apps/app应用标识)
 
