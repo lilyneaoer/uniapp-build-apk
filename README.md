@@ -7,7 +7,7 @@ uniapp本地打包
 2. 软件: Android Studio, HBuilderX
 
 
-## III 打包 (uni-app SDK与HBuilderX版本必须保持一致)
+## II 打包 (uni-app SDK与HBuilderX版本必须保持一致)
 **Android Studio** Build -> Generate Signed Bundle/APK...
 
 ****
