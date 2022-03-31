@@ -2,17 +2,17 @@
 
 uniapp本地打包
 
-## 基础环境
+##  I 基础环境
 1. 依赖: JRE, gradle, uni-app SDK
 2. 软件: Android Studio, HBuilderX
 
 
-## 打包 (uni-app SDK与HBuilderX版本必须保持一致)
+## III 打包 (uni-app SDK与HBuilderX版本必须保持一致)
 **Android Studio** Build -> Generate Signed Bundle/APK...
 
 ****
 
-## 文件配置
+## III 文件配置
 
 ### 1. Androidmanifest.xml (/simpleDemo/src/main/AndroidManifest.xml)
 
